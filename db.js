@@ -3,7 +3,7 @@ const connection = mysql.createConnection({
   host: '127.0.0.1',
   database: 'zombies',
   user: 'root',
-  password: '123456',
+  password: 'root',
   port: 3306,
   multipleStatements: true
 });
